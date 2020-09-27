@@ -4,7 +4,7 @@ COCO_LABELS = ['truck', 'traffic_light', 'fire_hydrant', 'stop_sign', 'parking_m
 
 LABELS = VOC_LABELS + COCO_LABELS
 
-img_dir = '/media/user/Store2/DB/'
+img_dir = '/content/YOLOv2-keras/img'
 
 voc_dir = "/media/user/Store2/DB/voc/VOCdevkit/VOC2012/"
 voc_detection_train_list = voc_dir + 'voc_train_annotation2.txt'

@@ -28,7 +28,7 @@ def DarkNet_deep(input_image, trainable=True):
 
     # the function to implement the orgnization layer (thanks to github.com/allanzelener/YAD2K)
     def space_to_depth_x2(x):
-        return tf.space_to_depth(x, block_size=2)
+        return tf.nn.space_to_depth(x, block_size=2)
 
     # Layer 1
     x = Conv_layer(input_image, 32, (3, 3), strides=(1, 1), num='1', trainable=trainable)

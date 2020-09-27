@@ -7,15 +7,15 @@ LABELS = VOC_LABELS + COCO_LABELS
 img_dir = '/content/YOLOv2-keras/img/'
 
 voc_dir = "/media/user/Store2/DB/voc/VOCdevkit/VOC2012/"
-voc_detection_train_list = "content/YOLOv2-keras/result/train.txt"
-voc_detection_val_list = voc_dir + 'voc_val_annotation2.txt'
+voc_detection_train_list = "content/YOLOv2-keras/result/annotation.txt"
+voc_detection_val_list = "content/YOLOv2-keras/result/annotation.txt"
 
-voc_detection_test_list = '/media/user/Store2/DB/VOCtest_06-Nov-2007/VOC2007/voc_test_annotation.txt'
-voc_testimg_dir = '/media/user/Store2/DB/VOCtest_06-Nov-2007/VOC2007/JPEGImages/'
+voc_detection_test_list = "content/YOLOv2-keras/result/annotation.txt"
+voc_testimg_dir =  '/content/YOLOv2-keras/img/'
 
-coco_dir = "/media/user/Store2/DB/coco/"
-coco_detection_train_list = coco_dir + 'coco_train_annotations2.txt'
-coco_detection_val_list = coco_dir + 'coco_val_annotations2.txt'
+coco_dir =  '/content/YOLOv2-keras/img/'
+coco_detection_train_list = "content/YOLOv2-keras/result/annotation.txt"
+coco_detection_val_list = "content/YOLOv2-keras/result/annotation.txt"
 
 input_shape = (416, 416, 3)
 NORM_H, NORM_W = 416, 416

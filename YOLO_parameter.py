@@ -6,7 +6,7 @@ LABELS = VOC_LABELS + COCO_LABELS
 
 img_dir = '/content/YOLOv2-keras/img/'
 
-voc_dir = "/media/user/Store2/DB/voc/VOCdevkit/VOC2012/"
+voc_dir = '/content/YOLOv2-keras/img/'
 voc_detection_train_list = "content/YOLOv2-keras/result/annotation.txt"
 voc_detection_val_list = "content/YOLOv2-keras/result/annotation.txt"
 

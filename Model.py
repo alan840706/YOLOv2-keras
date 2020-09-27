@@ -172,7 +172,7 @@ def DarkNet_mobile(img_input, alpha=1.0, depth_multiplier=1):
 
     return x
 
-@tf.function
+
 def multi_yolo(x):
     x = Conv2D(5 * (CLASS + BOX), (1, 1), strides=(1, 1), name='conv_23')(x)
     x = Activation('linear', name="linear_activation")(x)
